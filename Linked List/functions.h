@@ -1,0 +1,8 @@
+#include "createLinkedList.c"
+#include "printLinkedList.c"
+#include "appendLinkedList.c"
+#include "insertFrontLinkedList.c"
+#include "reverseLinkedList.c"
+#include "searchLinkedList.c"
+#include "sortLinkedList.c"
+#include "destroyLinkedList.c"
