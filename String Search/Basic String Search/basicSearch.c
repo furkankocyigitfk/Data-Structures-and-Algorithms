@@ -1,12 +1,16 @@
-int basicSearch(char *str, int n, char *pat, int m){
+int basicSearch(char *str, int n, char *pat, int m)
+{
 	int i, j;
-	
-	for(i=0; i<n-m; i++){
+
+	for (i = 0; i < n - m; i++)
+	{
 		j = 0;
-		while((j<m) && (str[i+j] == pat[j])){
+		while ((j < m) && (str[i + j] == pat[j]))
+		{
 			j++;
 		}
-		if(j == m){
+		if (j == m)
+		{
 			return i;
 		}
 	}

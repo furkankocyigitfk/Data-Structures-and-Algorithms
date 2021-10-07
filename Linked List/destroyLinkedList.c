@@ -1,6 +1,9 @@
-void destroy(struct Node **head){
+void destroy(struct Node **head)
+{
 	struct Node *current = *head;
-	while(current->next != NULL){
+
+	while (current->next != NULL)
+	{
 		*head = current->next;
 		free(current);
 		current = *head;

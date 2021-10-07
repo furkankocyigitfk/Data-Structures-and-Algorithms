@@ -1,5 +1,7 @@
-void postOrder(Node* root){
-	if(root == NULL){
+void postOrder(Node *root)
+{
+	if (root == NULL)
+	{
 		return;
 	}
 	preOrder(root->left);

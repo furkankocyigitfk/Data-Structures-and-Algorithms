@@ -1,14 +1,16 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-struct node{
+struct node
+{
 	int data;
-	struct node* next;
+	struct node *next;
 };
 
-struct queue{
-	struct node* rear;
-	struct node* front;
+struct queue
+{
+	struct node *rear;
+	struct node *front;
 };
 
 typedef struct queue Queue;
@@ -18,5 +20,3 @@ typedef struct queue Queue;
 #include "printQueue.c"
 #include "deQueue.c"
 #include "lengthQueue.c"
-
-

@@ -1,12 +1,13 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-#define MAX(a, b)((a) > (b) ? (a) :(b))
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
 
-struct node{
+struct node
+{
 	int data;
-	struct node* left;
-	struct node* right;
+	struct node *left;
+	struct node *right;
 };
 typedef struct node Node;
 

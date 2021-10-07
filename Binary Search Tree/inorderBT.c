@@ -1,5 +1,7 @@
-void inOrder(Node* root){
-	if(root == NULL){
+void inOrder(Node *root)
+{
+	if (root == NULL)
+	{
 		return;
 	}
 	preOrder(root->left);

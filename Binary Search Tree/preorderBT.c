@@ -1,5 +1,7 @@
-void preOrder(Node* root){
-	if(root == NULL){
+void preOrder(Node *root)
+{
+	if (root == NULL)
+	{
 		return;
 	}
 	printf("%d ", root->data);

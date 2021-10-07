@@ -1,13 +1,16 @@
-void dequeue(Queue *q){
-	if(q->front == NULL){
+void dequeue(Queue *q)
+{
+	if (q->front == NULL)
+	{
 		printf("Queue is free. Cannot be dequeued.\n");
 		q->rear = NULL;
 		return;
 	}
-	struct node* temp = q->front;
+	struct node *temp = q->front;
 	q->front = q->front->next;
 	free(temp);
-	if(q->front == NULL){
+	if (q->front == NULL)
+	{
 		q->rear = NULL;
 	}
 }

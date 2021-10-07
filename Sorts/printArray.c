@@ -1,7 +1,9 @@
-void print(int *arr){
+void print(int *arr)
+{
 	int i;
 	printf("Array:");
-	for(i=0; i<MAXSIZE; i++){
+	for (i = 0; i < MAXSIZE; i++)
+	{
 		printf("%d ", arr[i]);
 	}
 	printf("\n");

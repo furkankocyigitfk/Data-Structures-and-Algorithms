@@ -1,8 +1,11 @@
-void push(Node** top, int data){
-	Node* newnode = create(data);
-	if(*top == NULL){
+void push(Node **top, int data)
+{
+	Node *newnode = create(data);
+
+	if (*top == NULL)
+	{
 		*top = newnode;
-		return ;
+		return;
 	}
 	newnode->next = *top;
 	*top = newnode;

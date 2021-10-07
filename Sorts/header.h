@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #define MAXSIZE 20
-#define MIN(a,b) (a) < (b) ? (a):(b)
+#define MIN(a, b) (a) < (b) ? (a) : (b)
 
 #include "createAndFillArray.c"
 #include "printArray.c"
