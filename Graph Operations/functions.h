@@ -12,3 +12,4 @@
 #include "Depth Firts Search//pushStack.c"
 #include "Depth Firts Search//popStack.c"
 #include "Depth Firts Search//dfs.c"
+#include "Kruskal's Minimum Spanning Tree//kruskalMST.c"

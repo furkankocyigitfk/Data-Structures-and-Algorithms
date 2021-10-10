@@ -19,7 +19,7 @@ void dfs(int start, Graph g)
         pop(&top);
         for (i = 0; i < g.V; i++)
         {
-            if (visited[i] == 0 & g.adjMatrix[u][i] == 1)
+            if (visited[i] == 0 & g.adjMatrix[u][i] != 0)
             {
                 push(&top, i);
                 visited[i] = 1;

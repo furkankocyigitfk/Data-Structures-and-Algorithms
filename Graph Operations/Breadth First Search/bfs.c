@@ -20,7 +20,7 @@ void bfs(int start, Graph g)
         dequeue(q);
         for (i = 0; i < g.V; i++)
         {
-            if (visited[i] == 0 & g.adjMatrix[u][i] == 1)
+            if (visited[i] == 0 & g.adjMatrix[u][i] != 0)
             {
                 enqueue(q, i);
                 visited[i] = 1;
